@@ -1,0 +1,14 @@
+Difference between HTTP 1.1 and  HTTP 2.0
+
+HTTP 1.1 :
+
+1.HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+2.In HTTP1.1 only requested result is displayed. For example, if the client request an index.html file, the server returns the data only for the index.html .
+3.It works on the textual format
+
+
+HTTP 2.0
+1. HTTP2.0 uses the method of multiplexing, so that it can use a single TCP connection to send multiple streams of data at once.
+2. In http2.0, using the PUSH method, the server is able to send the associated files related to the requested files. for example, if index.html is request, the server pushes the linked files of stylesheet and the script.js files.
+3. To speed up the web performance, HTTP2.0 uses the HPACK to compress header packets, resulting in faster loading.
+4. It uses the binary protocol.

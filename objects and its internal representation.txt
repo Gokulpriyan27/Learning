@@ -1,0 +1,18 @@
+Objects and its internal representation:
+
+Object is a non-primitive data type in Javascript. It's an entity having properties and methods.HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+
+Example of an object:
+
+var mybike={};
+
+mybike.make="Bajaj";
+mybike.model="2015";
+mybike.color="Black";
+mybike.price=70000;
+
+The another way of declaring an object is,
+
+var mybike = {make:"Bajaj",model:"2015",color:"black",price:70000};
+
+An object can include different data types as its value for the key. For example listed above, the values of the keys make,model and color are of string data type , where as the key price contains a number data type.
