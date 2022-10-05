@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+}
+div{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    margin:0 auto;
+    background-color:blueviolet;
+    color:white;
+    font:bolder;
+    
+}
+#test{
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%); 
+}
