@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    background-color: #ccd8c8;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+.title{
+    font-size:larger;
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    position: relative;
+    background-color:#1B2430 !important;
+    color: white;
+    font-weight:500;
+    padding: 50px;
+    position: relative;
+ 
+}
+.logo{
+    position:absolute;
+    left:20px;
+}
+.container{
+   
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.leftbox{
+
+    height: 500px;
+    width:20%;
+    margin: 5%;
+    background-color:#2C3333;
+    border-radius: 20px;
+
+}
+.rightbox{
+   
+    height: 500px;
+    width:70%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-one{
+    width: 65%;
+    height: 50px;
+    background-color:#2C3333;
+    margin: 0px auto;
+    border-radius: 5px;
+    color: white;
+    padding-left:15px;
+    line-height:50px;
+}
+.right-bottom{
+    width: 100%;
+    height: 200px;
+    background-color:#2C3333;
+    border-radius: 15px;
+}
+.insidebox1,.insidebox2,.insidebox3{
+    width: 25%;
+    height: 150px;
+    background-color:#2C3333;
+    border-radius: 15px;
+}
+.right-middle{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 60px;
+    background-color:#1B2430;
+    position: absolute;
+    top:30px;
+    left:20px;
+ 
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftbox{
+
+        height: 500px;
+        width:40%;
+        margin: 5%;
+        background-color:#2C3333;
+        border-radius: 20px;
+        margin:5% auto;
+    
+    }.rightbox{
+   
+        height: 500px;
+        width:80%;
+        margin: 5% auto;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftbox{
+
+        height: 500px;
+        width:50%;
+        margin: 5%;
+        background-color:#2C3333;
+        border-radius: 20px;
+        margin:5% auto;
+    
+    }.rightbox{
+   
+        height: 500px;
+        width:90%;
+        margin: 5% auto;
+    }
+  }
